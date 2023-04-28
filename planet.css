@@ -1,0 +1,60 @@
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    /* visibility: visible; */
+}
+
+
+.balance {
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 40%;
+}
+
+
+
+/* .gifts:hover {
+    transform: scale(1.5);
+} */
+
+.gifts {
+    display: flex;
+    margin: 5%;
+
+    /* margin: auto; */
+    /* flex-direction: row; */
+}
+.gifts img {
+    /* position: absolute; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 25%;
+    visibility: hidden;
+}
+
+.empathizeImg:hover {
+    transform: scale(1.2);
+}
+.nurtureImg:hover {
+    transform: scale(1.2);
+}
+
+.serveImg:hover {
+    transform: scale(1.2);
+}
+.influenceImg:hover {
+    transform: scale(1.2);
+}
+
+.paragraphContainer {
+    margin-left: 3%;
+}
+
+p {
+    /* color: red; */
+    text-align: center;
+}
+
